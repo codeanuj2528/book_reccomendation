@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/suraj/Desktop/book_recommendation/mlruns/0/10cbbf6f09fc4f8e9a2566f01976d546/artifacts
+end_time: 1727548075849
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 10cbbf6f09fc4f8e9a2566f01976d546
+run_name: dazzling-stag-226
+run_uuid: 10cbbf6f09fc4f8e9a2566f01976d546
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727548068444
+status: 3
+tags: []
+user_id: suraj

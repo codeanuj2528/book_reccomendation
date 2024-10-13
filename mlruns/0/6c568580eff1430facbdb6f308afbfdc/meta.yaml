@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/suraj/Desktop/book_recommendation/mlruns/0/6c568580eff1430facbdb6f308afbfdc/artifacts
+end_time: 1727710771649
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6c568580eff1430facbdb6f308afbfdc
+run_name: intelligent-ox-233
+run_uuid: 6c568580eff1430facbdb6f308afbfdc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727710765691
+status: 3
+tags: []
+user_id: suraj

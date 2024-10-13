@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/suraj/Desktop/book_recommendation/mlruns/0/1c6cbebe0da349c9856a29abfda2c0be/artifacts
+end_time: 1727547934233
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1c6cbebe0da349c9856a29abfda2c0be
+run_name: persistent-skink-662
+run_uuid: 1c6cbebe0da349c9856a29abfda2c0be
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727547926615
+status: 3
+tags: []
+user_id: suraj

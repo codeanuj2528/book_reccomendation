@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/suraj/Desktop/book_recommendation/mlruns/0/9aa06a8ef56b4b749896a19ed645a22b/artifacts
+end_time: 1727711043932
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9aa06a8ef56b4b749896a19ed645a22b
+run_name: dashing-finch-29
+run_uuid: 9aa06a8ef56b4b749896a19ed645a22b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727711037104
+status: 3
+tags: []
+user_id: suraj

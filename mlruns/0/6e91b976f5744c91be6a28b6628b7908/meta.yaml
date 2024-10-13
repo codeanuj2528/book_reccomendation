@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/suraj/Desktop/book_recommendation/mlruns/0/6e91b976f5744c91be6a28b6628b7908/artifacts
+end_time: 1727549036500
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6e91b976f5744c91be6a28b6628b7908
+run_name: upset-dove-595
+run_uuid: 6e91b976f5744c91be6a28b6628b7908
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727549029549
+status: 3
+tags: []
+user_id: suraj

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/suraj/Desktop/book_recommendation/mlruns/0/3043321645a14c08b5c0f29fefd7d51d/artifacts
+end_time: 1727712329573
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3043321645a14c08b5c0f29fefd7d51d
+run_name: loud-pig-876
+run_uuid: 3043321645a14c08b5c0f29fefd7d51d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727712319382
+status: 3
+tags: []
+user_id: suraj

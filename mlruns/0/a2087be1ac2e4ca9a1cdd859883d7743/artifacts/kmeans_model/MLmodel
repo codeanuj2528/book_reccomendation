@@ -1,0 +1,453 @@
+artifact_path: kmeans_model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.2
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.5.0
+mlflow_version: 2.16.2
+model_size_bytes: 104646
+model_uuid: 5983ad731ce2441788e8c433b30b89a7
+run_id: a2087be1ac2e4ca9a1cdd859883d7743
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "double", "name": "106", "required": true}, {"type": "double",
+    "name": "20000", "required": true}, {"type": "double", "name": "22", "required":
+    true}, {"type": "double", "name": "39", "required": true}, {"type": "double",
+    "name": "abraham", "required": true}, {"type": "double", "name": "ackroyd", "required":
+    true}, {"type": "double", "name": "aczel", "required": true}, {"type": "double",
+    "name": "adam", "required": true}, {"type": "double", "name": "adolf", "required":
+    true}, {"type": "double", "name": "advocate", "required": true}, {"type": "double",
+    "name": "age", "required": true}, {"type": "double", "name": "agent", "required":
+    true}, {"type": "double", "name": "aghal", "required": true}, {"type": "double",
+    "name": "ahe", "required": true}, {"type": "double", "name": "albert", "required":
+    true}, {"type": "double", "name": "aldous", "required": true}, {"type": "double",
+    "name": "alex", "required": true}, {"type": "double", "name": "alfred", "required":
+    true}, {"type": "double", "name": "algorithms", "required": true}, {"type": "double",
+    "name": "allen", "required": true}, {"type": "double", "name": "amartya", "required":
+    true}, {"type": "double", "name": "amir", "required": true}, {"type": "double",
+    "name": "amitav", "required": true}, {"type": "double", "name": "amulet", "required":
+    true}, {"type": "double", "name": "analysis", "required": true}, {"type": "double",
+    "name": "andrew", "required": true}, {"type": "double", "name": "andy", "required":
+    true}, {"type": "double", "name": "angels", "required": true}, {"type": "double",
+    "name": "ani", "required": true}, {"type": "double", "name": "animal", "required":
+    true}, {"type": "double", "name": "answers", "required": true}, {"type": "double",
+    "name": "anthology", "required": true}, {"type": "double", "name": "approach",
+    "required": true}, {"type": "double", "name": "apress", "required": true}, {"type":
+    "double", "name": "apulki", "required": true}, {"type": "double", "name": "archer",
+    "required": true}, {"type": "double", "name": "argumentative", "required": true},
+    {"type": "double", "name": "arms", "required": true}, {"type": "double", "name":
+    "art", "required": true}, {"type": "double", "name": "arthashastra", "required":
+    true}, {"type": "double", "name": "arthur", "required": true}, {"type": "double",
+    "name": "artist", "required": true}, {"type": "double", "name": "asami", "required":
+    true}, {"type": "double", "name": "ashenden", "required": true}, {"type": "double",
+    "name": "atlantis", "required": true}, {"type": "double", "name": "attorney",
+    "required": true}, {"type": "double", "name": "author", "required": true}, {"type":
+    "double", "name": "autobiography", "required": true}, {"type": "double", "name":
+    "awadi", "required": true}, {"type": "double", "name": "ayn", "required": true},
+    {"type": "double", "name": "bach", "required": true}, {"type": "double", "name":
+    "baghdad", "required": true}, {"type": "double", "name": "bard", "required": true},
+    {"type": "double", "name": "batatyachi", "required": true}, {"type": "double",
+    "name": "batman", "required": true}, {"type": "double", "name": "baz", "required":
+    true}, {"type": "double", "name": "bazaar", "required": true}, {"type": "double",
+    "name": "bbc", "required": true}, {"type": "double", "name": "beautiful", "required":
+    true}, {"type": "double", "name": "beedle", "required": true}, {"type": "double",
+    "name": "beirut", "required": true}, {"type": "double", "name": "bell", "required":
+    true}, {"type": "double", "name": "bertrand", "required": true}, {"type": "double",
+    "name": "bhashane", "required": true}, {"type": "double", "name": "biography",
+    "required": true}, {"type": "double", "name": "birth", "required": true}, {"type":
+    "double", "name": "blackswan", "required": true}, {"type": "double", "name": "bob",
+    "required": true}, {"type": "double", "name": "bodanis", "required": true}, {"type":
+    "double", "name": "bodley", "required": true}, {"type": "double", "name": "book",
+    "required": true}, {"type": "double", "name": "bookless", "required": true}, {"type":
+    "double", "name": "bradsky", "required": true}, {"type": "double", "name": "brain",
+    "required": true}, {"type": "double", "name": "braithwaite", "required": true},
+    {"type": "double", "name": "brethren", "required": true}, {"type": "double", "name":
+    "bright", "required": true}, {"type": "double", "name": "british", "required":
+    true}, {"type": "double", "name": "broca", "required": true}, {"type": "double",
+    "name": "brothers", "required": true}, {"type": "double", "name": "brown", "required":
+    true}, {"type": "double", "name": "burning", "required": true}, {"type": "double",
+    "name": "camus", "required": true}, {"type": "double", "name": "canary", "required":
+    true}, {"type": "double", "name": "capra", "required": true}, {"type": "double",
+    "name": "carl", "required": true}, {"type": "double", "name": "carol", "required":
+    true}, {"type": "double", "name": "case", "required": true}, {"type": "double",
+    "name": "catch", "required": true}, {"type": "double", "name": "cathedral", "required":
+    true}, {"type": "double", "name": "cedric", "required": true}, {"type": "double",
+    "name": "chal", "required": true}, {"type": "double", "name": "char", "required":
+    true}, {"type": "double", "name": "charles", "required": true}, {"type": "double",
+    "name": "choice", "required": true}, {"type": "double", "name": "christmas", "required":
+    true}, {"type": "double", "name": "cia", "required": true}, {"type": "double",
+    "name": "city", "required": true}, {"type": "double", "name": "civilization",
+    "required": true}, {"type": "double", "name": "civilizations", "required": true},
+    {"type": "double", "name": "clash", "required": true}, {"type": "double", "name":
+    "classic", "required": true}, {"type": "double", "name": "classification", "required":
+    true}, {"type": "double", "name": "code", "required": true}, {"type": "double",
+    "name": "collected", "required": true}, {"type": "double", "name": "comic", "required":
+    true}, {"type": "double", "name": "communication", "required": true}, {"type":
+    "double", "name": "complete", "required": true}, {"type": "double", "name": "complexity",
+    "required": true}, {"type": "double", "name": "computer", "required": true}, {"type":
+    "double", "name": "computer_science", "required": true}, {"type": "double", "name":
+    "computing", "required": true}, {"type": "double", "name": "conan", "required":
+    true}, {"type": "double", "name": "connections", "required": true}, {"type": "double",
+    "name": "conway", "required": true}, {"type": "double", "name": "corbett", "required":
+    true}, {"type": "double", "name": "cormen", "required": true}, {"type": "double",
+    "name": "courtroom", "required": true}, {"type": "double", "name": "crc", "required":
+    true}, {"type": "double", "name": "created", "required": true}, {"type": "double",
+    "name": "crichton", "required": true}, {"type": "double", "name": "crime", "required":
+    true}, {"type": "double", "name": "crisis", "required": true}, {"type": "double",
+    "name": "dalrymple", "required": true}, {"type": "double", "name": "dame", "required":
+    true}, {"type": "double", "name": "damned", "required": true}, {"type": "double",
+    "name": "dan", "required": true}, {"type": "double", "name": "data", "required":
+    true}, {"type": "double", "name": "data_science", "required": true}, {"type":
+    "double", "name": "david", "required": true}, {"type": "double", "name": "dawkins",
+    "required": true}, {"type": "double", "name": "dc", "required": true}, {"type":
+    "double", "name": "death", "required": true}, {"type": "double", "name": "deb",
+    "required": true}, {"type": "double", "name": "deceiver", "required": true}, {"type":
+    "double", "name": "decision", "required": true}, {"type": "double", "name": "degrees",
+    "required": true}, {"type": "double", "name": "dell", "required": true}, {"type":
+    "double", "name": "democracy", "required": true}, {"type": "double", "name": "demons",
+    "required": true}, {"type": "double", "name": "deshpande", "required": true},
+    {"type": "double", "name": "design", "required": true}, {"type": "double", "name":
+    "devil", "required": true}, {"type": "double", "name": "devlin", "required": true},
+    {"type": "double", "name": "dickens", "required": true}, {"type": "double", "name":
+    "dickinson", "required": true}, {"type": "double", "name": "discontent", "required":
+    true}, {"type": "double", "name": "discontuinity", "required": true}, {"type":
+    "double", "name": "discovery", "required": true}, {"type": "double", "name": "djinns",
+    "required": true}, {"type": "double", "name": "doctor", "required": true}, {"type":
+    "double", "name": "dominique", "required": true}, {"type": "double", "name": "dongri",
+    "required": true}, {"type": "double", "name": "dostoevsky", "required": true},
+    {"type": "double", "name": "downey", "required": true}, {"type": "double", "name":
+    "doyle", "required": true}, {"type": "double", "name": "dragon", "required": true},
+    {"type": "double", "name": "drew", "required": true}, {"type": "double", "name":
+    "drucker", "required": true}, {"type": "double", "name": "drunkard", "required":
+    true}, {"type": "double", "name": "dubai", "required": true}, {"type": "double",
+    "name": "dubner", "required": true}, {"type": "double", "name": "duda", "required":
+    true}, {"type": "double", "name": "durant", "required": true}, {"type": "double",
+    "name": "durrell", "required": true}, {"type": "double", "name": "dylan", "required":
+    true}, {"type": "double", "name": "earle", "required": true}, {"type": "double",
+    "name": "earth", "required": true}, {"type": "double", "name": "earths", "required":
+    true}, {"type": "double", "name": "econometric", "required": true}, {"type": "double",
+    "name": "economic", "required": true}, {"type": "double", "name": "economics",
+    "required": true}, {"type": "double", "name": "eddins", "required": true}, {"type":
+    "double", "name": "edgar", "required": true}, {"type": "double", "name": "education",
+    "required": true}, {"type": "double", "name": "edward", "required": true}, {"type":
+    "double", "name": "electric", "required": true}, {"type": "double", "name": "electronics",
+    "required": true}, {"type": "double", "name": "elements", "required": true}, {"type":
+    "double", "name": "elsevier", "required": true}, {"type": "double", "name": "empire",
+    "required": true}, {"type": "double", "name": "england", "required": true}, {"type":
+    "double", "name": "eraly", "required": true}, {"type": "double", "name": "eric",
+    "required": true}, {"type": "double", "name": "ernest", "required": true}, {"type":
+    "double", "name": "essays", "required": true}, {"type": "double", "name": "eyeless",
+    "required": true}, {"type": "double", "name": "false", "required": true}, {"type":
+    "double", "name": "farewell", "required": true}, {"type": "double", "name": "farm",
+    "required": true}, {"type": "double", "name": "feynman", "required": true}, {"type":
+    "double", "name": "fiction", "required": true}, {"type": "double", "name": "final",
+    "required": true}, {"type": "double", "name": "fisk", "required": true}, {"type":
+    "double", "name": "flashpoint", "required": true}, {"type": "double", "name":
+    "follett", "required": true}, {"type": "double", "name": "fontana", "required":
+    true}, {"type": "double", "name": "foreman", "required": true}, {"type": "double",
+    "name": "forsyth", "required": true}, {"type": "double", "name": "foundation",
+    "required": true}, {"type": "double", "name": "franco", "required": true}, {"type":
+    "double", "name": "frank", "required": true}, {"type": "double", "name": "freakonomics",
+    "required": true}, {"type": "double", "name": "frederick", "required": true},
+    {"type": "double", "name": "free", "required": true}, {"type": "double", "name":
+    "freedom", "required": true}, {"type": "double", "name": "freepress", "required":
+    true}, {"type": "double", "name": "friedman", "required": true}, {"type": "double",
+    "name": "fritjof", "required": true}, {"type": "double", "name": "fundamentals",
+    "required": true}, {"type": "double", "name": "fyodor", "required": true}, {"type":
+    "double", "name": "gardner", "required": true}, {"type": "double", "name": "garg",
+    "required": true}, {"type": "double", "name": "gary", "required": true}, {"type":
+    "double", "name": "gayin", "required": true}, {"type": "double", "name": "gaza",
+    "required": true}, {"type": "double", "name": "genius", "required": true}, {"type":
+    "double", "name": "george", "required": true}, {"type": "double", "name": "gerald",
+    "required": true}, {"type": "double", "name": "ghalib", "required": true}, {"type":
+    "double", "name": "ghosh", "required": true}, {"type": "double", "name": "girl",
+    "required": true}, {"type": "double", "name": "gleick", "required": true}, {"type":
+    "double", "name": "god", "required": true}, {"type": "double", "name": "gordon",
+    "required": true}, {"type": "double", "name": "goswami", "required": true}, {"type":
+    "double", "name": "grapes", "required": true}, {"type": "double", "name": "great",
+    "required": true}, {"type": "double", "name": "greatest", "required": true}, {"type":
+    "double", "name": "greene", "required": true}, {"type": "double", "name": "grisham",
+    "required": true}, {"type": "double", "name": "gun", "required": true}, {"type":
+    "double", "name": "gupta", "required": true}, {"type": "double", "name": "gutierrez",
+    "required": true}, {"type": "double", "name": "hackers", "required": true}, {"type":
+    "double", "name": "hafasavnuk", "required": true}, {"type": "double", "name":
+    "half", "required": true}, {"type": "double", "name": "hall", "required": true},
+    {"type": "double", "name": "halloween", "required": true}, {"type": "double",
+    "name": "handbook", "required": true}, {"type": "double", "name": "hansberry",
+    "required": true}, {"type": "double", "name": "harpercollins", "required": true},
+    {"type": "double", "name": "harris", "required": true}, {"type": "double", "name":
+    "hart", "required": true}, {"type": "double", "name": "hawking", "required": true},
+    {"type": "double", "name": "haykin", "required": true}, {"type": "double", "name":
+    "hba", "required": true}, {"type": "double", "name": "head", "required": true},
+    {"type": "double", "name": "heisenberg", "required": true}, {"type": "double",
+    "name": "heller", "required": true}, {"type": "double", "name": "hemingway", "required":
+    true}, {"type": "double", "name": "hidden", "required": true}, {"type": "double",
+    "name": "highstakes", "required": true}, {"type": "double", "name": "history",
+    "required": true}, {"type": "double", "name": "hitler", "required": true}, {"type":
+    "double", "name": "holmes", "required": true}, {"type": "double", "name": "hornet",
+    "required": true}, {"type": "double", "name": "house", "required": true}, {"type":
+    "double", "name": "hugo", "required": true}, {"type": "double", "name": "hunchback",
+    "required": true}, {"type": "double", "name": "huntington", "required": true},
+    {"type": "double", "name": "hussain", "required": true}, {"type": "double", "name":
+    "huxley", "required": true}, {"type": "double", "name": "hyperion", "required":
+    true}, {"type": "double", "name": "iacoca", "required": true}, {"type": "double",
+    "name": "idea", "required": true}, {"type": "double", "name": "identity", "required":
+    true}, {"type": "double", "name": "idiot", "required": true}, {"type": "double",
+    "name": "ii", "required": true}, {"type": "double", "name": "image", "required":
+    true}, {"type": "double", "name": "imagination", "required": true}, {"type": "double",
+    "name": "impressions", "required": true}, {"type": "double", "name": "india",
+    "required": true}, {"type": "double", "name": "indian", "required": true}, {"type":
+    "double", "name": "infinite", "required": true}, {"type": "double", "name": "information",
+    "required": true}, {"type": "double", "name": "integers", "required": true}, {"type":
+    "double", "name": "integration", "required": true}, {"type": "double", "name":
+    "intelligent", "required": true}, {"type": "double", "name": "interpretation",
+    "required": true}, {"type": "double", "name": "introduction", "required": true},
+    {"type": "double", "name": "jaico", "required": true}, {"type": "double", "name":
+    "jaideva", "required": true}, {"type": "double", "name": "james", "required":
+    true}, {"type": "double", "name": "janert", "required": true}, {"type": "double",
+    "name": "jawaharlal", "required": true}, {"type": "double", "name": "jean", "required":
+    true}, {"type": "double", "name": "jeffery", "required": true}, {"type": "double",
+    "name": "jerusalem", "required": true}, {"type": "double", "name": "jim", "required":
+    true}, {"type": "double", "name": "john", "required": true}, {"type": "double",
+    "name": "joke", "required": true}, {"type": "double", "name": "joking", "required":
+    true}, {"type": "double", "name": "jonathan", "required": true}, {"type": "double",
+    "name": "joseph", "required": true}, {"type": "double", "name": "journal", "required":
+    true}, {"type": "double", "name": "journey", "required": true}, {"type": "double",
+    "name": "joy", "required": true}, {"type": "double", "name": "judge", "required":
+    true}, {"type": "double", "name": "judiciary", "required": true}, {"type": "double",
+    "name": "jules", "required": true}, {"type": "double", "name": "jurassic", "required":
+    true}, {"type": "double", "name": "justice", "required": true}, {"type": "double",
+    "name": "kafka", "required": true}, {"type": "double", "name": "kale", "required":
+    true}, {"type": "double", "name": "kampf", "required": true}, {"type": "double",
+    "name": "kanetkar", "required": true}, {"type": "double", "name": "karl", "required":
+    true}, {"type": "double", "name": "kautiyla", "required": true}, {"type": "double",
+    "name": "keith", "required": true}, {"type": "double", "name": "ken", "required":
+    true}, {"type": "double", "name": "kicked", "required": true}, {"type": "double",
+    "name": "killing", "required": true}, {"type": "double", "name": "konnikova",
+    "required": true}, {"type": "double", "name": "kuldip", "required": true}, {"type":
+    "double", "name": "kurt", "required": true}, {"type": "double", "name": "lame",
+    "required": true}, {"type": "double", "name": "lapierre", "required": true}, {"type":
+    "double", "name": "larsson", "required": true}, {"type": "double", "name": "law",
+    "required": true}, {"type": "double", "name": "leaf", "required": true}, {"type":
+    "double", "name": "league", "required": true}, {"type": "double", "name": "leagues",
+    "required": true}, {"type": "double", "name": "learning", "required": true}, {"type":
+    "double", "name": "lecture", "required": true}, {"type": "double", "name": "lee",
+    "required": true}, {"type": "double", "name": "legal", "required": true}, {"type":
+    "double", "name": "leonard", "required": true}, {"type": "double", "name": "let",
+    "required": true}, {"type": "double", "name": "letters", "required": true}, {"type":
+    "double", "name": "life", "required": true}, {"type": "double", "name": "like",
+    "required": true}, {"type": "double", "name": "living", "required": true}, {"type":
+    "double", "name": "london", "required": true}, {"type": "double", "name": "long",
+    "required": true}, {"type": "double", "name": "lorraine", "required": true}, {"type":
+    "double", "name": "love", "required": true}, {"type": "double", "name": "machiavelli",
+    "required": true}, {"type": "double", "name": "machine", "required": true}, {"type":
+    "double", "name": "madan", "required": true}, {"type": "double", "name": "maintenance",
+    "required": true}, {"type": "double", "name": "making", "required": true}, {"type":
+    "double", "name": "manasa", "required": true}, {"type": "double", "name": "manhattan",
+    "required": true}, {"type": "double", "name": "manohar", "required": true}, {"type":
+    "double", "name": "maqta", "required": true}, {"type": "double", "name": "maria",
+    "required": true}, {"type": "double", "name": "markets", "required": true}, {"type":
+    "double", "name": "marx", "required": true}, {"type": "double", "name": "mastermind",
+    "required": true}, {"type": "double", "name": "mathematical", "required": true},
+    {"type": "double", "name": "mathematician", "required": true}, {"type": "double",
+    "name": "mathematics", "required": true}, {"type": "double", "name": "matlab",
+    "required": true}, {"type": "double", "name": "maugham", "required": true}, {"type":
+    "double", "name": "mauj", "required": true}, {"type": "double", "name": "mckinney",
+    "required": true}, {"type": "double", "name": "mein", "required": true}, {"type":
+    "double", "name": "men", "required": true}, {"type": "double", "name": "menon",
+    "required": true}, {"type": "double", "name": "michael", "required": true}, {"type":
+    "double", "name": "midnight", "required": true}, {"type": "double", "name": "milennium",
+    "required": true}, {"type": "double", "name": "mining", "required": true}, {"type":
+    "double", "name": "misc", "required": true}, {"type": "double", "name": "mit",
+    "required": true}, {"type": "double", "name": "mlodinow", "required": true}, {"type":
+    "double", "name": "modern", "required": true}, {"type": "double", "name": "mohan",
+    "required": true}, {"type": "double", "name": "moon", "required": true}, {"type":
+    "double", "name": "morphology", "required": true}, {"type": "double", "name":
+    "morris", "required": true}, {"type": "double", "name": "mossad", "required":
+    true}, {"type": "double", "name": "motorcycle", "required": true}, {"type": "double",
+    "name": "mr", "required": true}, {"type": "double", "name": "mughal", "required":
+    true}, {"type": "double", "name": "muhammad", "required": true}, {"type": "double",
+    "name": "murphy", "required": true}, {"type": "double", "name": "mystery", "required":
+    true}, {"type": "double", "name": "naipaul", "required": true}, {"type": "double",
+    "name": "nariman", "required": true}, {"type": "double", "name": "nate", "required":
+    true}, {"type": "double", "name": "nation", "required": true}, {"type": "double",
+    "name": "nations", "required": true}, {"type": "double", "name": "nature", "required":
+    true}, {"type": "double", "name": "nayar", "required": true}, {"type": "double",
+    "name": "ned", "required": true}, {"type": "double", "name": "needs", "required":
+    true}, {"type": "double", "name": "nehru", "required": true}, {"type": "double",
+    "name": "nest", "required": true}, {"type": "double", "name": "networks", "required":
+    true}, {"type": "double", "name": "neural", "required": true}, {"type": "double",
+    "name": "new", "required": true}, {"type": "double", "name": "nisbet", "required":
+    true}, {"type": "double", "name": "noise", "required": true}, {"type": "double",
+    "name": "nonfiction", "required": true}, {"type": "double", "name": "north", "required":
+    true}, {"type": "double", "name": "notre", "required": true}, {"type": "double",
+    "name": "novel", "required": true}, {"type": "double", "name": "nude", "required":
+    true}, {"type": "double", "name": "numb3rs", "required": true}, {"type": "double",
+    "name": "numbers", "required": true}, {"type": "double", "name": "objectivism",
+    "required": true}, {"type": "double", "name": "omnibus", "required": true}, {"type":
+    "double", "name": "opamps", "required": true}, {"type": "double", "name": "open",
+    "required": true}, {"type": "double", "name": "opencv", "required": true}, {"type":
+    "double", "name": "oram", "required": true}, {"type": "double", "name": "order",
+    "required": true}, {"type": "double", "name": "orient", "required": true}, {"type":
+    "double", "name": "orientalism", "required": true}, {"type": "double", "name":
+    "orwell", "required": true}, {"type": "double", "name": "outsider", "required":
+    true}, {"type": "double", "name": "oxford", "required": true}, {"type": "double",
+    "name": "paghal", "required": true}, {"type": "double", "name": "palkhivala",
+    "required": true}, {"type": "double", "name": "pan", "required": true}, {"type":
+    "double", "name": "paris", "required": true}, {"type": "double", "name": "park",
+    "required": true}, {"type": "double", "name": "pattern", "required": true}, {"type":
+    "double", "name": "pausch", "required": true}, {"type": "double", "name": "pearson",
+    "required": true}, {"type": "double", "name": "penguin", "required": true}, {"type":
+    "double", "name": "people", "required": true}, {"type": "double", "name": "peter",
+    "required": true}, {"type": "double", "name": "phantom", "required": true}, {"type":
+    "double", "name": "phillip", "required": true}, {"type": "double", "name": "philosophers",
+    "required": true}, {"type": "double", "name": "philosophy", "required": true},
+    {"type": "double", "name": "physics", "required": true}, {"type": "double", "name":
+    "picador", "required": true}, {"type": "double", "name": "pillars", "required":
+    true}, {"type": "double", "name": "pirsig", "required": true}, {"type": "double",
+    "name": "played", "required": true}, {"type": "double", "name": "pocket", "required":
+    true}, {"type": "double", "name": "poe", "required": true}, {"type": "double",
+    "name": "poetry", "required": true}, {"type": "double", "name": "pointers", "required":
+    true}, {"type": "double", "name": "political", "required": true}, {"type": "double",
+    "name": "politics", "required": true}, {"type": "double", "name": "poppies", "required":
+    true}, {"type": "double", "name": "power", "required": true}, {"type": "double",
+    "name": "pratt", "required": true}, {"type": "double", "name": "prentice", "required":
+    true}, {"type": "double", "name": "president", "required": true}, {"type": "double",
+    "name": "press", "required": true}, {"type": "double", "name": "primitive", "required":
+    true}, {"type": "double", "name": "prince", "required": true}, {"type": "double",
+    "name": "principles", "required": true}, {"type": "double", "name": "prisoner",
+    "required": true}, {"type": "double", "name": "processing", "required": true},
+    {"type": "double", "name": "programs", "required": true}, {"type": "double", "name":
+    "psychology", "required": true}, {"type": "double", "name": "publisher", "required":
+    true}, {"type": "double", "name": "punishment", "required": true}, {"type": "double",
+    "name": "python", "required": true}, {"type": "double", "name": "radiowaril",
+    "required": true}, {"type": "double", "name": "raiders", "required": true}, {"type":
+    "double", "name": "raisin", "required": true}, {"type": "double", "name": "rand",
+    "required": true}, {"type": "double", "name": "random", "required": true}, {"type":
+    "double", "name": "randomness", "required": true}, {"type": "double", "name":
+    "randy", "required": true}, {"type": "double", "name": "ranjan", "required": true},
+    {"type": "double", "name": "rashid", "required": true}, {"type": "double", "name":
+    "rationality", "required": true}, {"type": "double", "name": "raymond", "required":
+    true}, {"type": "double", "name": "reilly", "required": true}, {"type": "double",
+    "name": "relative", "required": true}, {"type": "double", "name": "remaking",
+    "required": true}, {"type": "double", "name": "return", "required": true}, {"type":
+    "double", "name": "richard", "required": true}, {"type": "double", "name": "robert",
+    "required": true}, {"type": "double", "name": "ropemaker", "required": true},
+    {"type": "double", "name": "rosy", "required": true}, {"type": "double", "name":
+    "routledge", "required": true}, {"type": "double", "name": "rowling", "required":
+    true}, {"type": "double", "name": "ruler", "required": true}, {"type": "double",
+    "name": "rupa", "required": true}, {"type": "double", "name": "russell", "required":
+    true}, {"type": "double", "name": "russian", "required": true}, {"type": "double",
+    "name": "rutherford", "required": true}, {"type": "double", "name": "sagan", "required":
+    true}, {"type": "double", "name": "said", "required": true}, {"type": "double",
+    "name": "sam", "required": true}, {"type": "double", "name": "samarkand", "required":
+    true}, {"type": "double", "name": "samuel", "required": true}, {"type": "double",
+    "name": "sanjay", "required": true}, {"type": "double", "name": "sassoon", "required":
+    true}, {"type": "double", "name": "schilling", "required": true}, {"type": "double",
+    "name": "schuster", "required": true}, {"type": "double", "name": "science", "required":
+    true}, {"type": "double", "name": "scientists", "required": true}, {"type": "double",
+    "name": "scoop", "required": true}, {"type": "double", "name": "sea", "required":
+    true}, {"type": "double", "name": "seas", "required": true}, {"type": "double",
+    "name": "sebastian", "required": true}, {"type": "double", "name": "secret", "required":
+    true}, {"type": "double", "name": "secrets", "required": true}, {"type": "double",
+    "name": "selected", "required": true}, {"type": "double", "name": "sen", "required":
+    true}, {"type": "double", "name": "sergio", "required": true}, {"type": "double",
+    "name": "serpent", "required": true}, {"type": "double", "name": "shabda", "required":
+    true}, {"type": "double", "name": "shashi", "required": true}, {"type": "double",
+    "name": "sherlock", "required": true}, {"type": "double", "name": "shih", "required":
+    true}, {"type": "double", "name": "short", "required": true}, {"type": "double",
+    "name": "shrutika", "required": true}, {"type": "double", "name": "siddhartha",
+    "required": true}, {"type": "double", "name": "signal", "required": true}, {"type":
+    "double", "name": "signal_processing", "required": true}, {"type": "double", "name":
+    "silver", "required": true}, {"type": "double", "name": "simon", "required": true},
+    {"type": "double", "name": "simpsons", "required": true}, {"type": "double", "name":
+    "singh", "required": true}, {"type": "double", "name": "sir", "required": true},
+    {"type": "double", "name": "sixpence", "required": true}, {"type": "double", "name":
+    "slaughterhouse", "required": true}, {"type": "double", "name": "smart", "required":
+    true}, {"type": "double", "name": "smith", "required": true}, {"type": "double",
+    "name": "social", "required": true}, {"type": "double", "name": "soft", "required":
+    true}, {"type": "double", "name": "software", "required": true}, {"type": "double",
+    "name": "sorabjee", "required": true}, {"type": "double", "name": "source", "required":
+    true}, {"type": "double", "name": "springer", "required": true}, {"type": "double",
+    "name": "stanley", "required": true}, {"type": "double", "name": "state", "required":
+    true}, {"type": "double", "name": "states", "required": true}, {"type": "double",
+    "name": "statistical", "required": true}, {"type": "double", "name": "steig",
+    "required": true}, {"type": "double", "name": "steinbeck", "required": true},
+    {"type": "double", "name": "stephen", "required": true}, {"type": "double", "name":
+    "steve", "required": true}, {"type": "double", "name": "stonier", "required":
+    true}, {"type": "double", "name": "stories", "required": true}, {"type": "double",
+    "name": "story", "required": true}, {"type": "double", "name": "straight", "required":
+    true}, {"type": "double", "name": "stroud", "required": true}, {"type": "double",
+    "name": "structure", "required": true}, {"type": "double", "name": "structures",
+    "required": true}, {"type": "double", "name": "sudhanshu", "required": true},
+    {"type": "double", "name": "sun", "required": true}, {"type": "double", "name":
+    "sunita", "required": true}, {"type": "double", "name": "superfreakonomics", "required":
+    true}, {"type": "double", "name": "superman", "required": true}, {"type": "double",
+    "name": "surely", "required": true}, {"type": "double", "name": "sussman", "required":
+    true}, {"type": "double", "name": "systems", "required": true}, {"type": "double",
+    "name": "tainted", "required": true}, {"type": "double", "name": "tales", "required":
+    true}, {"type": "double", "name": "talking", "required": true}, {"type": "double",
+    "name": "tanenbaum", "required": true}, {"type": "double", "name": "tao", "required":
+    true}, {"type": "double", "name": "tari", "required": true}, {"type": "double",
+    "name": "tattoo", "required": true}, {"type": "double", "name": "taub", "required":
+    true}, {"type": "double", "name": "tears", "required": true}, {"type": "double",
+    "name": "tech", "required": true}, {"type": "double", "name": "terence", "required":
+    true}, {"type": "double", "name": "textbook", "required": true}, {"type": "double",
+    "name": "tharoor", "required": true}, {"type": "double", "name": "theorem", "required":
+    true}, {"type": "double", "name": "theory", "required": true}, {"type": "double",
+    "name": "think", "required": true}, {"type": "double", "name": "thinkers", "required":
+    true}, {"type": "double", "name": "thomas", "required": true}, {"type": "double",
+    "name": "throne", "required": true}, {"type": "double", "name": "tmh", "required":
+    true}, {"type": "double", "name": "tools", "required": true}, {"type": "double",
+    "name": "tooth", "required": true}, {"type": "double", "name": "transworld", "required":
+    true}, {"type": "double", "name": "trembling", "required": true}, {"type": "double",
+    "name": "trial", "required": true}, {"type": "double", "name": "trials", "required":
+    true}, {"type": "double", "name": "trivia", "required": true}, {"type": "double",
+    "name": "uncommon", "required": true}, {"type": "double", "name": "universe",
+    "required": true}, {"type": "double", "name": "unknown", "required": true}, {"type":
+    "double", "name": "unpopular", "required": true}, {"type": "double", "name": "urlasurla",
+    "required": true}, {"type": "double", "name": "using", "required": true}, {"type":
+    "double", "name": "valli", "required": true}, {"type": "double", "name": "vapnik",
+    "required": true}, {"type": "double", "name": "various", "required": true}, {"type":
+    "double", "name": "veil", "required": true}, {"type": "double", "name": "verne",
+    "required": true}, {"type": "double", "name": "veteran", "required": true}, {"type":
+    "double", "name": "victor", "required": true}, {"type": "double", "name": "vikas",
+    "required": true}, {"type": "double", "name": "villain", "required": true}, {"type":
+    "double", "name": "villani", "required": true}, {"type": "double", "name": "vintage",
+    "required": true}, {"type": "double", "name": "violence", "required": true}, {"type":
+    "double", "name": "vision", "required": true}, {"type": "double", "name": "vladimir",
+    "required": true}, {"type": "double", "name": "vol", "required": true}, {"type":
+    "double", "name": "vonnegut", "required": true}, {"type": "double", "name": "vyakti",
+    "required": true}, {"type": "double", "name": "walk", "required": true}, {"type":
+    "double", "name": "war", "required": true}, {"type": "double", "name": "warrior",
+    "required": true}, {"type": "double", "name": "wars", "required": true}, {"type":
+    "double", "name": "wavelets", "required": true}, {"type": "double", "name": "wealth",
+    "required": true}, {"type": "double", "name": "welfare", "required": true}, {"type":
+    "double", "name": "wells", "required": true}, {"type": "double", "name": "werner",
+    "required": true}, {"type": "double", "name": "wes", "required": true}, {"type":
+    "double", "name": "west", "required": true}, {"type": "double", "name": "western",
+    "required": true}, {"type": "double", "name": "wiley", "required": true}, {"type":
+    "double", "name": "william", "required": true}, {"type": "double", "name": "winter",
+    "required": true}, {"type": "double", "name": "wisdom", "required": true}, {"type":
+    "double", "name": "woodward", "required": true}, {"type": "double", "name": "work",
+    "required": true}, {"type": "double", "name": "world", "required": true}, {"type":
+    "double", "name": "wrath", "required": true}, {"type": "double", "name": "writing",
+    "required": true}, {"type": "double", "name": "yashwant", "required": true}, {"type":
+    "double", "name": "zaidi", "required": true}, {"type": "double", "name": "zen",
+    "required": true}, {"type": "double", "name": "zohar", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int32", "shape": [-1]}}]'
+  params: null
+utc_time_created: '2024-09-28 18:23:40.627825'

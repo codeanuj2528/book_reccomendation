@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/suraj/Desktop/book_recommendation/mlruns/0/b5854201ad4143978ce5a4c986af4518/artifacts
+end_time: 1727719045369
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b5854201ad4143978ce5a4c986af4518
+run_name: fun-squid-599
+run_uuid: b5854201ad4143978ce5a4c986af4518
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727719037221
+status: 3
+tags: []
+user_id: suraj

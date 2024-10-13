@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/suraj/Desktop/book_recommendation/mlruns/0/3a87092d4eda47f49f1065f894513f2f/artifacts
+end_time: 1727765102143
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3a87092d4eda47f49f1065f894513f2f
+run_name: bustling-yak-376
+run_uuid: 3a87092d4eda47f49f1065f894513f2f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727765094329
+status: 3
+tags: []
+user_id: suraj

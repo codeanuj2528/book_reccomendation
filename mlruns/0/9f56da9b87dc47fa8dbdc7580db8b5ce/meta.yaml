@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/suraj/Desktop/book_recommendation/mlruns/0/9f56da9b87dc47fa8dbdc7580db8b5ce/artifacts
+end_time: 1727765185325
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9f56da9b87dc47fa8dbdc7580db8b5ce
+run_name: dapper-fly-584
+run_uuid: 9f56da9b87dc47fa8dbdc7580db8b5ce
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727765178542
+status: 3
+tags: []
+user_id: suraj

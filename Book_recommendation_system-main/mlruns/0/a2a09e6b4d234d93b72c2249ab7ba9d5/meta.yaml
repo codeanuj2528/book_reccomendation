@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/suraj/Desktop/book_recommendation/mlruns/0/a2a09e6b4d234d93b72c2249ab7ba9d5/artifacts
+end_time: 1727548245031
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a2a09e6b4d234d93b72c2249ab7ba9d5
+run_name: crawling-steed-209
+run_uuid: a2a09e6b4d234d93b72c2249ab7ba9d5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727548237226
+status: 3
+tags: []
+user_id: suraj

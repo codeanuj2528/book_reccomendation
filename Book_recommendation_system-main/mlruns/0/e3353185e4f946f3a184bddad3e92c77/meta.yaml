@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/suraj/Desktop/book_recommendation/mlruns/0/e3353185e4f946f3a184bddad3e92c77/artifacts
+end_time: 1727549116450
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e3353185e4f946f3a184bddad3e92c77
+run_name: receptive-shark-797
+run_uuid: e3353185e4f946f3a184bddad3e92c77
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727549110162
+status: 3
+tags: []
+user_id: suraj

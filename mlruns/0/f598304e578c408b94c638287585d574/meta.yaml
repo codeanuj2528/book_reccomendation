@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/suraj/Desktop/book_recommendation/mlruns/0/f598304e578c408b94c638287585d574/artifacts
+end_time: 1727547815537
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f598304e578c408b94c638287585d574
+run_name: skittish-ox-597
+run_uuid: f598304e578c408b94c638287585d574
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727547807479
+status: 3
+tags: []
+user_id: suraj

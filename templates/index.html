@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/style.css">
+    <title>Book Recommendation System</title>
+</head>
+<body>
+
+    <h1>Book Recommendation System</h1>
+    <input type="text" id="bookTitle" placeholder="Enter Book Title" onfocus="loadBookTitles()" autocomplete="off">
+    <div id="autocomplete-list" class="autocomplete-suggestions"></div>
+    <button onclick="getRecommendations()">Get Recommendations</button>
+
+    <div class="results" id="results"></div>
+
+    <script>
+        let bookTitles = [];
+
+        async function loadBookTitles() {
+            if (bookTitles.length === 0) {  // Load book titles only once
+                const response = await fetch('/get_book_titles');
+                const data = await response.json();
+                if (data.titles) {
+                    bookTitles = data.titles;
+                }
+            }
+        }
+
+        // Autocomplete functionality
+        const inputField = document.getElementById('bookTitle');
+        inputField.addEventListener('input', function() {
+            const inputValue = this.value.toLowerCase();
+            const autocompleteList = document.getElementById('autocomplete-list');
+            autocompleteList.innerHTML = '';
+
+            if (inputValue) {
+                const filteredTitles = bookTitles.filter(title => title.toLowerCase().includes(inputValue));
+                filteredTitles.forEach(title => {
+                    const suggestion = document.createElement('div');
+                    suggestion.textContent = title;
+                    suggestion.addEventListener('click', function() {
+                        inputField.value = title;
+                        autocompleteList.innerHTML = '';  // Clear the suggestions
+                    });
+                    autocompleteList.appendChild(suggestion);
+                });
+            }
+        });
+
+        async function getRecommendations() {
+            const title = document.getElementById('bookTitle').value;
+            const response = await fetch(`/recommend?title=${encodeURIComponent(title)}`);
+            const data = await response.json();
+
+            let resultDiv = document.getElementById('results');
+            resultDiv.innerHTML = '';
+
+            if (data.recommendations) {
+                resultDiv.innerHTML = '<h2>Recommended Books:</h2>';
+                const list = document.createElement('ul');
+                data.recommendations.forEach(book => {
+                    const listItem = document.createElement('li');
+                    listItem.textContent = book;
+                    list.appendChild(listItem);
+                });
+                resultDiv.appendChild(list);
+            } else if (data.error) {
+                resultDiv.innerHTML = `<p>${data.error}</p>`;
+            }
+        }
+    </script>
+
+</body>
+</html>

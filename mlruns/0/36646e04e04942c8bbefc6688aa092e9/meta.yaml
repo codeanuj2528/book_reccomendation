@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/suraj/Desktop/book_recommendation/mlruns/0/36646e04e04942c8bbefc6688aa092e9/artifacts
+end_time: 1727710022311
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 36646e04e04942c8bbefc6688aa092e9
+run_name: powerful-steed-859
+run_uuid: 36646e04e04942c8bbefc6688aa092e9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727710015743
+status: 3
+tags: []
+user_id: suraj

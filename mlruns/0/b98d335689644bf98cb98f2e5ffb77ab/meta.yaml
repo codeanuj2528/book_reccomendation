@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/suraj/Desktop/book_recommendation/mlruns/0/b98d335689644bf98cb98f2e5ffb77ab/artifacts
+end_time: 1727551723186
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b98d335689644bf98cb98f2e5ffb77ab
+run_name: casual-shad-640
+run_uuid: b98d335689644bf98cb98f2e5ffb77ab
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727551716673
+status: 3
+tags: []
+user_id: suraj

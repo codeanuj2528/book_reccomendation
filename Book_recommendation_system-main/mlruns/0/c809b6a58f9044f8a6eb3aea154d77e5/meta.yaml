@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/suraj/Desktop/book_recommendation/mlruns/0/c809b6a58f9044f8a6eb3aea154d77e5/artifacts
+end_time: 1727549024745
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c809b6a58f9044f8a6eb3aea154d77e5
+run_name: flawless-stoat-781
+run_uuid: c809b6a58f9044f8a6eb3aea154d77e5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727549017632
+status: 3
+tags: []
+user_id: suraj

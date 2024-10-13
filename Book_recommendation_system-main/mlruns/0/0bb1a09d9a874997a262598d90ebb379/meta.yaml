@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/suraj/Desktop/book_recommendation/mlruns/0/0bb1a09d9a874997a262598d90ebb379/artifacts
+end_time: 1727765157632
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0bb1a09d9a874997a262598d90ebb379
+run_name: nimble-bear-728
+run_uuid: 0bb1a09d9a874997a262598d90ebb379
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727765151451
+status: 4
+tags: []
+user_id: suraj

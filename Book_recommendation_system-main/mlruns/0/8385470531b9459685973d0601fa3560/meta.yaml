@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/suraj/Desktop/book_recommendation/mlruns/0/8385470531b9459685973d0601fa3560/artifacts
+end_time: 1727547715489
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8385470531b9459685973d0601fa3560
+run_name: learned-shrimp-396
+run_uuid: 8385470531b9459685973d0601fa3560
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727547708712
+status: 3
+tags: []
+user_id: suraj

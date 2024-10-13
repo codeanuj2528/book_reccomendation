@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/suraj/Desktop/book_recommendation/mlruns/0/7fb8310d293b4f03a65fae022eb1bd2e/artifacts
+end_time: 1727628197865
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7fb8310d293b4f03a65fae022eb1bd2e
+run_name: caring-horse-732
+run_uuid: 7fb8310d293b4f03a65fae022eb1bd2e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727628191842
+status: 3
+tags: []
+user_id: suraj

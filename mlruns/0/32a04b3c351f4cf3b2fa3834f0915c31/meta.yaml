@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/suraj/Desktop/book_recommendation/mlruns/0/32a04b3c351f4cf3b2fa3834f0915c31/artifacts
+end_time: 1727548088388
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 32a04b3c351f4cf3b2fa3834f0915c31
+run_name: mercurial-hog-415
+run_uuid: 32a04b3c351f4cf3b2fa3834f0915c31
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727548080657
+status: 3
+tags: []
+user_id: suraj

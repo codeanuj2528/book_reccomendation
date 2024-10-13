@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/suraj/Desktop/book_recommendation/mlruns/0/a2087be1ac2e4ca9a1cdd859883d7743/artifacts
+end_time: 1727547827791
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a2087be1ac2e4ca9a1cdd859883d7743
+run_name: lyrical-squid-649
+run_uuid: a2087be1ac2e4ca9a1cdd859883d7743
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727547820438
+status: 3
+tags: []
+user_id: suraj

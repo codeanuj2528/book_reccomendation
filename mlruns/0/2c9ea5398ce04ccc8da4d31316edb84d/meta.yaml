@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/suraj/Desktop/book_recommendation/mlruns/0/2c9ea5398ce04ccc8da4d31316edb84d/artifacts
+end_time: 1727549207467
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2c9ea5398ce04ccc8da4d31316edb84d
+run_name: wistful-crow-58
+run_uuid: 2c9ea5398ce04ccc8da4d31316edb84d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727549201717
+status: 3
+tags: []
+user_id: suraj

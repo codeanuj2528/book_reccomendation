@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/suraj/Desktop/book_recommendation/mlruns/0/0edf4a2ad56e45edaa8161c33ecb9be7/artifacts
+end_time: 1727628187281
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0edf4a2ad56e45edaa8161c33ecb9be7
+run_name: casual-goose-980
+run_uuid: 0edf4a2ad56e45edaa8161c33ecb9be7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727628179866
+status: 3
+tags: []
+user_id: suraj

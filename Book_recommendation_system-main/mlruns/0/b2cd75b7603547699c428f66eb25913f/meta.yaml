@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/suraj/Desktop/book_recommendation/mlruns/0/b2cd75b7603547699c428f66eb25913f/artifacts
+end_time: 1727628054632
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b2cd75b7603547699c428f66eb25913f
+run_name: sassy-frog-255
+run_uuid: b2cd75b7603547699c428f66eb25913f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727628045905
+status: 3
+tags: []
+user_id: suraj

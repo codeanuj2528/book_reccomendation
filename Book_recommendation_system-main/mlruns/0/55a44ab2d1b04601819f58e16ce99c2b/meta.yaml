@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/suraj/Desktop/book_recommendation/mlruns/0/55a44ab2d1b04601819f58e16ce99c2b/artifacts
+end_time: 1727710370301
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 55a44ab2d1b04601819f58e16ce99c2b
+run_name: casual-quail-214
+run_uuid: 55a44ab2d1b04601819f58e16ce99c2b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727710364845
+status: 3
+tags: []
+user_id: suraj

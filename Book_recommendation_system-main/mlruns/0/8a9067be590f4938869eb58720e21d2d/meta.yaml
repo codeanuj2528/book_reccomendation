@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/suraj/Desktop/book_recommendation/mlruns/0/8a9067be590f4938869eb58720e21d2d/artifacts
+end_time: 1727710011419
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8a9067be590f4938869eb58720e21d2d
+run_name: unruly-boar-432
+run_uuid: 8a9067be590f4938869eb58720e21d2d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727709997734
+status: 3
+tags: []
+user_id: suraj

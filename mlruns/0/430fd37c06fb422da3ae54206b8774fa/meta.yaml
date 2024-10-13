@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/suraj/Desktop/book_recommendation/mlruns/0/430fd37c06fb422da3ae54206b8774fa/artifacts
+end_time: 1727548441727
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 430fd37c06fb422da3ae54206b8774fa
+run_name: bittersweet-bird-262
+run_uuid: 430fd37c06fb422da3ae54206b8774fa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727548434419
+status: 3
+tags: []
+user_id: suraj

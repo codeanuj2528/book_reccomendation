@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/suraj/Desktop/book_recommendation/mlruns/0/fccf0a0625bb4634ac93e0df682a23da/artifacts
+end_time: 1727711128498
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fccf0a0625bb4634ac93e0df682a23da
+run_name: abundant-slug-966
+run_uuid: fccf0a0625bb4634ac93e0df682a23da
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727711120597
+status: 3
+tags: []
+user_id: suraj

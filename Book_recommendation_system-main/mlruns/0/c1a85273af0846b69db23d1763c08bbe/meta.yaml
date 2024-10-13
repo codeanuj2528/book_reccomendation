@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/suraj/Desktop/book_recommendation/mlruns/0/c1a85273af0846b69db23d1763c08bbe/artifacts
+end_time: 1727549102753
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c1a85273af0846b69db23d1763c08bbe
+run_name: indecisive-mouse-992
+run_uuid: c1a85273af0846b69db23d1763c08bbe
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727549095827
+status: 3
+tags: []
+user_id: suraj

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/suraj/Desktop/book_recommendation/mlruns/0/f3075544eceb4852896ba038cea2e90d/artifacts
+end_time: 1727712312290
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f3075544eceb4852896ba038cea2e90d
+run_name: gaudy-kit-376
+run_uuid: f3075544eceb4852896ba038cea2e90d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727712302080
+status: 3
+tags: []
+user_id: suraj

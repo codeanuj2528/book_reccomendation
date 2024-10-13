@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/suraj/Desktop/book_recommendation/mlruns/0/c9ef1861415b4b9e974599cc43328a1a/artifacts
+end_time: 1727551723181
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c9ef1861415b4b9e974599cc43328a1a
+run_name: caring-yak-93
+run_uuid: c9ef1861415b4b9e974599cc43328a1a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727551716673
+status: 3
+tags: []
+user_id: suraj

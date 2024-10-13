@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/suraj/Desktop/book_recommendation/mlruns/0/e71fdea8882c49b5969bacc5d5a34787/artifacts
+end_time: 1727549004634
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e71fdea8882c49b5969bacc5d5a34787
+run_name: capable-whale-495
+run_uuid: e71fdea8882c49b5969bacc5d5a34787
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727548998832
+status: 3
+tags: []
+user_id: suraj

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/suraj/Desktop/book_recommendation/mlruns/0/a51d65ef4f704e9a92024ec2ad781531/artifacts
+end_time: 1727549195408
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a51d65ef4f704e9a92024ec2ad781531
+run_name: mysterious-roo-799
+run_uuid: a51d65ef4f704e9a92024ec2ad781531
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727549194496
+status: 4
+tags: []
+user_id: suraj

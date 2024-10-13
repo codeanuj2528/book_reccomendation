@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/suraj/Desktop/book_recommendation/mlruns/0/092b1db92b464c5ebc105768a4dda689/artifacts
+end_time: 1727548441513
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 092b1db92b464c5ebc105768a4dda689
+run_name: thoughtful-crab-730
+run_uuid: 092b1db92b464c5ebc105768a4dda689
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727548434086
+status: 3
+tags: []
+user_id: suraj

@@ -1,0 +1,20 @@
+{
+  "dataframe_split": {
+    "columns": [
+      "Title",
+      "Author",
+      "Publisher",
+      "Genre",
+      "SubGenre"
+    ],
+    "data": [
+      [
+        "Example Book Title",
+        "Example Author",
+        "Example Publisher",
+        "Example Genre",
+        "Example SubGenre"
+      ]
+    ]
+  }
+}

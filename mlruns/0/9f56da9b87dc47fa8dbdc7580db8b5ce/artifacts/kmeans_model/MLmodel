@@ -1,0 +1,20 @@
+artifact_path: kmeans_model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.2
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.5.0
+mlflow_version: 2.16.2
+model_size_bytes: 26454
+model_uuid: d5290e28794c413484b9cf2c64909192
+run_id: 9f56da9b87dc47fa8dbdc7580db8b5ce
+utc_time_created: '2024-10-01 06:46:18.722657'

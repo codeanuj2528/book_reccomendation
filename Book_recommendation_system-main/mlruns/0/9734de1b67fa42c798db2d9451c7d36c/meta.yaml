@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/suraj/Desktop/book_recommendation/mlruns/0/9734de1b67fa42c798db2d9451c7d36c/artifacts
+end_time: 1727712208182
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9734de1b67fa42c798db2d9451c7d36c
+run_name: invincible-midge-396
+run_uuid: 9734de1b67fa42c798db2d9451c7d36c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727712197147
+status: 3
+tags: []
+user_id: suraj

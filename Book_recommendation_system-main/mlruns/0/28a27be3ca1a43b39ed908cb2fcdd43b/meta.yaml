@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/suraj/Desktop/book_recommendation/mlruns/0/28a27be3ca1a43b39ed908cb2fcdd43b/artifacts
+end_time: 1727547799324
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 28a27be3ca1a43b39ed908cb2fcdd43b
+run_name: luxuriant-sow-873
+run_uuid: 28a27be3ca1a43b39ed908cb2fcdd43b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727547796649
+status: 4
+tags: []
+user_id: suraj

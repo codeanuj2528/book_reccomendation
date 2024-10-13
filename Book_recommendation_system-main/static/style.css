@@ -1,0 +1,136 @@
+/* Body Styling */
+body {
+    background-color: antiquewhite;
+    font-family: 'Arial', sans-serif;
+    margin: 50px;
+    padding: 0;
+}
+
+/* Centering the entire content and adding some padding */
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading Styling */
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+/* Input field and Button */
+.input-group {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#book-input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1.1em;
+    transition: all 0.3s ease;
+}
+
+#book-input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+#recommend-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#recommend-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Recommendation List */
+#recommendations {
+    margin-top: 30px;
+}
+
+.alert {
+    background-color: #f1f1f1;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+}
+
+/* Book Cover Image */
+.img-thumbnail {
+    width: 70px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+
+/* List of Suggestions */
+#suggestions-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+#suggestions-list li {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#suggestions-list li:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+
+
+
+
+input {
+    padding: 10px;
+    width: 300px;
+}
+button {
+    padding: 10px 15px;
+    margin-left: 10px;
+}
+.results {
+    margin-top: 20px;
+}
+.autocomplete-suggestions {
+    border: 1px solid #ccc;
+    max-height: 150px;
+    overflow-y: auto;
+    position: absolute;
+    background-color: white;
+    z-index: 9999;
+}
+.autocomplete-suggestions div {
+    padding: 10px;
+    cursor: pointer;
+}
+.autocomplete-suggestions div:hover {
+    background-color: #f0f0f0;
+}

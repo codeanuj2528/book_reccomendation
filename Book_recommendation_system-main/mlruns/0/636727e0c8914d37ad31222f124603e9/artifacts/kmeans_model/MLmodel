@@ -1,0 +1,29 @@
+artifact_path: kmeans_model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.2
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.5.0
+mlflow_version: 2.16.2
+model_size_bytes: 38503
+model_uuid: e1ce8a3bd193488d8b7d504a70ba4947
+run_id: 636727e0c8914d37ad31222f124603e9
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: values
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "float", "name": "tfidf_features", "required": true}]'
+  outputs: '[{"type": "integer", "name": "cluster", "required": true}]'
+  params: null
+utc_time_created: '2024-09-28 18:46:35.110506'
